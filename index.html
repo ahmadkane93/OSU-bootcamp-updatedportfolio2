@@ -7,7 +7,9 @@
     <title>Ahmad's Professional Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <link rel="stylesheet" type="text/css" href="./bulma.min.css" />
-  
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
  
 
       
@@ -31,9 +33,9 @@
     <div class="navbar-end">
       <div class="topnav">
         
-        <button class="button is-success is-outlined">BIO</button>
-        <button class="button is-success is-outlined">PROJECTS</button>
-        <button class="button is-success is-outlined">CONTACTS</button>
+        <a class="button is-outlined" href="">BIO</a>
+        <a class="button is-outlined" href="#projectpage">PROJECTS</a>
+        <a class="button is-outlined" href="#contactspage">CONTACTS</a>
       
       </div>
     </div>
@@ -57,6 +59,8 @@
 <div class="box">
   <h1 class="subtitle is-2">PROJECTS</h1>
   <hr>
+
+  <a id="projectpage"></a>
  
   <div class="box">
     <article class="media">
@@ -131,11 +135,21 @@
   <div id="footer" class="content">
     <h1 >CONTACTS</h1>
     <hr>
+    <a id="contactspage"></a>
+
     <ul id="menu">
       <h2>
       <li><a class="button is-info is-light" href="mailto:ahmadkanework@gmail.com">Email</a></li>
+    
       <li><a class="button is-info is-light" href="https://www.linkedin.com/in/ahmadkane/">LinkedIn</a></li>
       <li><a class="button is-info is-light" href="https://github.com/ahmadkane93">Github</a></li>
+
+      <button class="button">
+        <span class="icon">
+          <i class="fab fa-github"></i>
+        </span>
+        <span>GitHub</span>
+      </button>
       </h2>
     </ul>
   </div>
