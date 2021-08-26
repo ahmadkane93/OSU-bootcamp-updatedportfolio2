@@ -5,9 +5,9 @@
 <br>
 <h2> Description </h2>
 <ul>
-<li>The Motivation is to create a website using HTML and CSS</li>
-<li>This portfolio site is to demonstrate the knowledge of setting up flexboxes and attaching hyperlinks and other features to a website.</li>
-<li> Through this project I've learned more methods of using CSS to make a website more aesthetically pleasing.</li>
+<li>The Motivation is to create an updated version of my portfolio website.</li>
+<li>This portfolio site is to demonstrate the knowledge I have accumulated throughout the bootcamp.</li>
+
 </ul>
 <br>
 <br>
